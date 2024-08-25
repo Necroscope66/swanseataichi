@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #0f45f5;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: #77aaff 3px solid;
+}
+
+/* Navigation */
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    font-variant-caps: all-small-caps;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav ul li a:hover {
+    color: lightgreen;
+}
+
+/* Website Heading */
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    flex-grow: 1;
+}
+
+h2 {
+    color: #0f45f5;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+}
+
+main .container {
+    flex-direction: column; /* Ensure content stacks vertically */
+    align-items: center; /* Align content to the centre */
+}
+
+/* Paragraphs */
+main p {
+    margin: 15px 0; /* Add space between paragraphs */
+    padding: 0;
+}
+
+/* Headings within Main */
+main h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #444;
+}
+
+.justify_indent {
+    text-align: justify; /* Align content to be justified */
+    text-indent: 50px; /* Indent the first line of each paragraph */
+}
+
+.home_list_1 {
+    text-align: justify; /* Align content to the left */
+    list-style-type: decimal;
+    text-indent: 0;
+}
+
+.pill-button {
+    background-color: #0f45f5;
+    color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border-style:outset;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pill-button:hover {
+    background-color: #4ec306;
+    transform: translateY(-3px);
+}
+
+.pill-button:active {
+    background-color: #0a318d;
+    transform: translateY(1px);
+}    
+
+._form41 {
+    /*placeholder for CSS code when I get to it*/
+}
+
+/* Footer */
+footer {
+    background: #0f45f5;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
